@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "C:\Users\keerthana.A\weather-aqi-dashboard\scripts\collect_data.py", line 95, in <module>
+    collect_data()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\keerthana.A\weather-aqi-dashboard\scripts\collect_data.py", line 63, in collect_data
+    with open(CSV_FILE, mode="a", newline="", encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'data/weather_aqi_history.csv'
+Saved: Chennai | 33.59C | AQI: Moderate
+Saved: Coimbatore | 33.58C | AQI: Good
+Saved: Madurai | 34C | AQI: Good
+----------------------------------------
+Done! 3 rows added to data/weather_aqi_history.csv
+Saved: Chennai | 30.55C | AQI: Fair
+Saved: Coimbatore | 26.37C | AQI: Fair
+Saved: Madurai | 29.01C | AQI: Fair
+----------------------------------------
+Done! 3 rows added to data/weather_aqi_history.csv
